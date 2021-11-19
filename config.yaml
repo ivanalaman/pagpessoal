@@ -1,0 +1,173 @@
+baseURL: "https://lec.pro.br"
+languageCode: "pt-br"
+title: "Ivan"
+theme: "./.."
+relativeURLs: true
+
+googleanalytics: UA-xxxxxx-x
+disqusShortname:
+Paginate: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+enableEmoji: true
+    
+params:
+  version: 3
+
+  favicon: "/images/logoIBA.png"
+  description: "A high performance hugo theme for personal portfolio and blog."
+
+  # Navbar Menus
+#  customMenus:
+#    - name: "Blog"
+#      Url: "/blog"
+#    - name: "Artigos"
+
+
+  # home
+  disable_home: false
+  profile_image: "/images/profile.jpg"
+  name: "Ivan Bezerra Allaman"
+  namecolor: ffc107
+  profession: "Professor Adjunto"
+  github: "https://github.com/ivanalaman"
+  researchgate: "https://www.researchgate.net/profile/Ivan-Allaman"
+  linkedin: "https://www.linkedin.com/in/ivan-bezerra-allaman-03010854/"
+  orcid: "https://orcid.org/0000-0003-0883-0466"
+  lattes: "http://lattes.cnpq.br/0657401449833853"
+  scholar: "https://scholar.google.com.br/citations?user=hbf43NQAAAAJ&hl=pt-BR&oi=ao"
+#twitter: "https://twitter.com/"
+#instagram: "https://instagram.com/"
+#facebook: "https://facebook.com"
+
+  # About
+  disable_about: false
+  descripe_l1_person: "Sou Professor Adjunto da Universidade Estadual de Santa Cruz, Ilhéus, Bahia. Estou lotado no Departamento de Ciências Exatas e Tecnológicas dentro da área da Estatística. Minha principal linha de pesquisa é a Estatística Computacional, atuando principalmente no desenvolvimento de pacotes para o Software R."
+#  descripe_l2_person: "This is a example template for about section. You can find my works [here](#projects)"
+  skills:
+    - name: R
+      percentage: 100
+    - name: Python
+      percentage: 10
+    - name: C++
+      percentage: 5
+    - name: SQL
+      percentage: 1
+    - name: HTML/CSS/Markdown
+      percentage: 70
+    - name: LaTeX
+      percentage: 80
+    - name: Git/Github
+      percentage: 60
+    
+  # Experience
+  disable_experience: false
+  experience:
+    - company: "Pesquisa"
+      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
+      role: "Coordenador"
+      startdate: Agosto 2011
+      enddate: Atual
+      featuredpoints:
+        - point: Desenvolvimento de softwares relacionados ao ambiente computacional R para uso em ensino, pesquisa e extensão.
+    - company: "Ensino"
+      # id: "facebook-developer" // use this, when you want to change the id(used for navigation)
+      role: "Coordenador e integrante"
+      startdate: Março 2018
+      enddate: Atual
+      featuredpoints:
+        - point: Programa de monitoria em estatı́stica.
+        - point: Experimentação e Estatística em Saneamento Básico.
+    - company: "Extensao"
+      # id: "extensao" // use this, when you want to change the id(used for navigation)
+      role: "Coordenador"
+      startdate: Agosto 2013
+      enddate: Atual
+      featuredpoints:
+        - point: Ferramentas Estatísticas para Análise de Dados.
+        - point: Ferramentas Computacionais de Edição e Processamento de Texto.
+
+  # Education
+  disable_education: false
+  education:
+    - degree: "Graduação"
+      branch: "Zootecnia"
+      university: "Universidade Federal de Mato Grosso do Sul"
+      startedyear: "2001"
+      graduation: "2005"
+    - degree: "Graduação"
+      branch: "Matemática"
+      university: "Universidade do Sul de Santa Catarina"
+      startedyear: "2011"
+      graduation: "Atual"
+    - degree: "Mestrado"
+      branch: "Zootecnia"
+      university: "Universidade Federal de Lavras"
+      startedyear: "2006"
+      graduation: "2008"
+    - degree: "Doutorado"
+      branch: "Zootecnia"
+      university: "Universidade Federal de Lavras"
+      startedyear: "2008"
+      graduation: "2011"
+  
+  # Articles
+  disable_articles: true
+  articles:
+    - title:
+      url:
+
+  # Projects
+  disable_projects: false
+  projects:
+    - name: "CET173-Probabilidade e Estatística"
+      img: /images/project.jpg
+      knowmore: "Saiba mais..."
+      url: /project/cet173/main
+      description: "Esta disciplina é oferecida regularmente para os cursos de graduação em Engenharias da UESC."
+    - name: "CAA110-Nivelamento em Estatística"
+      img: /images/project.jpg
+      knowmore: "Saber mais..."
+      description: "Esta disciplina é oferecida regularmente para o curso de Pós-Graduação em Ciência Animal."
+      url: /project/caa110/main
+    - name: "CAA068-Métodos Estatístico Aplicados à Ciência Animal"
+      img: /images/project.jpg
+      knowmore: "Saber mais..."
+      description: "Esta disciplina é oferecida regularmente para o curso de Pós-Graduação em Ciência Animal."
+      url: /project/caa068/main
+
+  # Achievements
+  disable_achievements: true
+  achievements:
+    - title: Competition winner
+      description: We are developed a product which can help others.
+      img: /images/achiv.jpg
+    - title: Competition winner
+      description: We are developed a product which can help others.
+      img: /images/achiv.jpg
+    - title: Competition winner
+      description: We are developed a product which can help others.
+      img: /images/achiv.jpg
+    - title: Competition winner
+      description: We are developed a product which can help others.
+      img: /images/achiv.jpg
+
+  # Contact
+  disable_contact: false
+  contact_content: Se você tem qualquer assunto que queira discutir relacionado a estatística ou programação em R, ou ainda, queira algum tipo de assessoria em análise de dados, contate-me!
+  email: "iballaman@uesc.br"
+
+  # Footer
+  socialiconfooter: true
+  recentposts: false
+
+  # Blog
+  showdescription: false
+  tweet: false
