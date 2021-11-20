@@ -67,7 +67,7 @@ params:
     - name: Git/Github
       percentage: 60
     
-  # Experience
+  # Projects
   disable_experience: false
   experience:
     - company: "Pesquisa"
@@ -124,7 +124,7 @@ params:
     - title:
       url:
 
-  # Projects
+  # Courses
   disable_projects: false
   projects:
     - name: "CET173-Probabilidade e Estatística"
